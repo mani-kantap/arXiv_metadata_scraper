@@ -6,7 +6,8 @@ https://info.arxiv.org/about/index.html
  The app sends requests to the ArXiv API to fetch the metadata of the papers that match the search criteria specified by the user. The metadata is then parsed and stored in a CSV file, which can be downloaded from the dashboard.
 
 ## How to Use
-To use the ArXiv Metadata Scraper, follow these steps:
+To use a deployed version https://metadatarxiv.streamlit.app/.
+To use the ArXiv Metadata Scraper locally, follow these steps:
 
 - Clone the repository to your local machine.
 - Install the required packages listed in the requirements.txt file by running pip install -r requirements.txt in your terminal.
