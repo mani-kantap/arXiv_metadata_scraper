@@ -1,5 +1,7 @@
 # ArXiv Metadata Scraper
   This is a simple dashboard for scraping the metadata of research papers from the ArXiv API. The dashboard is built using the Streamlit library, and it allows users to select various parameters such as category, sorting order, and keyword to search for papers on ArXiv.
+  Please read ArXiv API usage guideline before using.
+https://info.arxiv.org/about/index.html
 
  The app sends requests to the ArXiv API to fetch the metadata of the papers that match the search criteria specified by the user. The metadata is then parsed and stored in a CSV file, which can be downloaded from the dashboard.
 
