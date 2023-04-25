@@ -11,7 +11,7 @@ To use the ArXiv Metadata Scraper locally, follow these steps:
 
 - Clone the repository to your local machine.
 - Install the required packages listed in the requirements.txt file by running pip install -r requirements.txt in your terminal.
-- Run the app using the following command: streamlit run app.py.
+- Run the app using the following command: streamlit run arxiv.py.
 - In the dashboard, select the parameters such as category, sorting order, and keyword to search for papers on ArXiv.
 Click on the "Download CSV" button to download the metadata of the papers that match the search criteria as a CSV file.
 # Parameters
@@ -20,7 +20,7 @@ Click on the "Download CSV" button to download the metadata of the papers that m
 - **Category:** The category of papers to search for. Users can choose from a list of categories such as AI, Computation and Language, Computer Vision, ML, etc.
 - **Sort Order:** The sorting order of the search results. Users can choose to sort the results in ascending or descending order of relevance.
 - **Sort By:** The attribute to sort the search results by. Users can choose to sort the results by relevance, last updated, or submitted date.
-- **Max Results:** The maximum number of search results to fetch. Users can specify a value between 1 and 1000.
+- **Max Results:** The maximum number of search results to fetch. Users can specify a value between 1 and 50000.
 - **Start:** The index of the first search result to fetch. Users can specify a value between 1 and 50000.
 - **Keyword:** An optional keyword to search for in the title, abstract, or author fields of the papers.
 # Output
